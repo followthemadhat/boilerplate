@@ -1,0 +1,92 @@
+/* General Project Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-size: 16px;
+  font-family: $main-font;
+  line-height: 1.6;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Placeholder styles */
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+input:focus:required:invalid,
+textarea:focus:required:invalid {
+  color: #666;
+}
+
+input:required:valid,
+textarea:required:valid {
+  color: #666;
+}
+
+/* Helper classes */
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.no-borders {
+  border: 0;
+}
+
+.no-float {
+  float: none;
+}
