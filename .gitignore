@@ -1,4 +1,7 @@
 node_modules/
 build/
 src/css/
-src/header.min.css
+misc/
+designs/
+backup/
+versions/
